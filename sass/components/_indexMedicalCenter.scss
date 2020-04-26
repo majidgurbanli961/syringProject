@@ -1,0 +1,82 @@
+
+
+.medicalCenterContainer {
+    // overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap !important;
+    background-color: $medical-center-background-color;
+
+    width: 100%;
+    position: relative;
+
+   
+  
+        .medicalCenterText {
+      
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 27%;
+            margin: auto;
+            padding-top: 79px;
+        max-width: 100%;
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+                color: #303030;
+                line-height: 52px;
+                text-align: inherit;
+                // margin: 0 0 15px;
+            }
+
+            .color-default {
+                color: $content-color;
+            }
+
+            .subTitle {
+                font-size: 15px;
+                line-height: 26px;
+                color: #888888;
+               width: 100px !important;
+                margin-bottom: 35px;
+         
+            
+           
+                width: 100% !important;
+            }
+
+            ul {
+                list-style: none;
+           text-align: center;
+                padding-top: 24px;
+
+                li {
+                    color: black;
+                    display: flex;
+                    padding-bottom: 14px;
+                    font-weight: 600;
+                
+                    i {
+                        color: $content-color;
+                        padding-right: 28px;
+                        font-style: normal;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+
+        .medicalCenterImg {
+            width: 50%;
+            .medicalImg img {
+               
+                object-fit: cover;
+
+            }
+        }
+    
+
+
+}

@@ -1,0 +1,70 @@
+#bigPhoto{
+    height: calc(65vh - 80px);
+    background-image: url(../img/main-home-video.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    
+    position: relative;
+    .bigPhotoCenter{
+        position: absolute;
+        width: 99px;
+        height: 99px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 42%;
+        left: 45%;
+        line-height: 90px;
+        z-index: 999;
+        background: rgba(0, 125, 242, 1);
+        &:hover{
+            .hoveredContent{
+          
+                background-color: #303030;
+                transform: scale(99);
+                cursor: pointer;
+                border-radius: 50%;
+                
+            }
+         
+        }
+        
+    }
+    i{
+        position: absolute;
+        z-index: 111;
+        font-size: 26px;
+        color: white;
+        cursor: pointer !important;
+    }
+    .hoveredContent{
+        border-radius: 50%;
+
+       
+        width: 1px;
+        transition: .5s;
+        height: 1px;
+        transform: scale(1);
+        background-color: #303030; 
+       
+    }
+    .bigPhotoBlackLayout{
+        height: calc(65vh - 80px);
+        position: absolute;
+        background-color: rgba($color: #000000, $alpha: 0.25);
+        z-index: 99;
+        width: 100%;
+        
+    }
+}
+@keyframes hoveredPlay{
+    0%{
+        width: 1px;
+        height: 1px;
+    }
+    100%{
+       transform: scale(99);
+     
+    }
+}

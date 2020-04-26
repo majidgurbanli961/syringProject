@@ -1,0 +1,88 @@
+#ourVision{
+    // font-family: "Poppins";
+   
+  
+    .ourVisionTextContent{ 
+        padding: 82px 0px 67px;
+    .ourVisionHeader{
+        padding: 35px 15px 0px;
+        h6{
+            color: $content-color;
+            text-align: center;
+            font-size: 14px;
+           
+            letter-spacing: 0.2em;
+            font-weight: 700;
+        }
+        span{
+            font-size: 36px;
+            line-height: 52px;
+            color: #303030;
+            font-weight: 600;
+            text-align: center;
+            display: block;
+        }
+        .visionHeaderDescription{
+            font-size: 15px;
+            line-height: 26px;
+            color: #888;
+            font-weight: 500;
+            padding-top: 12px;
+            text-align: center;
+        }
+    }
+}
+    .ourVisionRow{
+        padding: 22px 0px 115px;
+        .visionRowContent{
+           
+           
+            display: flex;
+            &:hover {
+                
+                h5{
+                    color: $content-color !important;
+                }
+            }
+            
+            .visionRowContentLeft{
+                i{
+                    font-size: 47px;
+                    color: $content-color;
+                    
+                }
+            }
+            .visionRowContentRight{
+                margin-left: 10px;
+            
+                h5{
+                    margin: -4px 0px 17px;
+                    font-size: 18px;
+                    color: $vision-black-color;
+                    transition: .3s;
+                }
+                .pTag{
+                    line-height: 20px;
+    color: #303030;
+    margin: 0 0 15px;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+                }
+
+            }
+        }
+    }
+    .secondVisionRowContent{
+        margin-top: 0px;
+    }
+
+    
+}
+
+
+
+

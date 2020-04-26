@@ -1,0 +1,85 @@
+@media screen and (max-width:1200px){
+    .menu{
+        display: none;
+    }
+    .media-1033{
+        text-align: center !important;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width:769px){
+  
+   
+    .contentBestContentThird{
+        display: block !important;
+               
+   }
+   .dental{
+       margin-top: 30px ;
+   }
+   .firstCardiology{
+    //    margin-top: 30px;
+   }
+ 
+
+ 
+}
+@media screen and (max-width:992px){
+ 
+.burger{
+    display: block !important;
+}
+.thirdVisionRowContent, .fourthVisionRowContent{
+   margin-top: 35px;
+   
+}
+ .contentBestContentThird{
+     display: none;
+            
+}
+.pulmonary , .prthopaedics{
+    margin-top: 30px;
+}
+ 
+}
+@media screen and(max-width:330px){
+    .contentBestContentLeft{
+        i{
+            // display: none;
+            padding-right: 5px;
+            font-size: 40px !important;
+            // width: 40px !important;
+        }
+    }
+}
+@media screen and(max-width:740px){
+    .neurology{
+        margin-top: 30px !important;
+    }
+}
+@media screen and(max-width:690px){
+    .secondVisionRowContent{
+        margin-top: 35px !important;
+    }
+}
+@media screen and (max-width:576px){
+
+    .header-top,.menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    
+  
+ }
+ @media screen and (max-width:1388px){
+ 
+    .search-basket {
+ 
+        right: 19px!important;
+}
+ 
+}

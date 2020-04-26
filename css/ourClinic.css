@@ -1,0 +1,922 @@
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007df2;
+}
+
+.pageIntroSection {
+  background-image: url("../img/pagetitle-aboutus2.jpg");
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pageIntroSection .pageIntroText {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -73px;
+  font-family: "Poppins";
+}
+
+.pageIntroSection .pageIntroText h2 {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #303030;
+}
+
+.pageIntroSection .pageIntroText p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #303030;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  width: 130px;
+  margin: auto;
+}
+
+.pageIntroSection .pageIntroText p a {
+  text-decoration: none;
+  color: #303030;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pageIntroText a:hover {
+  color: #007df2 !important;
+}
+
+.aboutContainer {
+  background-color: white;
+  margin: 10px 0;
+}
+
+.aboutContainerCenter {
+  margin: 0 auto;
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutContent {
+  width: 48%;
+}
+
+.aboutContent h2:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #007df2;
+}
+
+.aboutContent h1:nth-child(2) {
+  font-size: 36px;
+  font-weight: 600;
+  color: #303030;
+  line-height: 52px;
+}
+
+.aboutContent h1:nth-child(2) span {
+  color: #007df2;
+}
+
+.aboutContent p:nth-child(3) {
+  font-size: 18px;
+  line-height: 26px;
+  color: #303030;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.aboutContent p:nth-child(4) {
+  font-size: 15px;
+  line-height: 26px;
+  color: #888888;
+}
+
+.aboutContent img:nth-child(5) {
+  margin: 40px 0;
+}
+
+.aboutImageContainer {
+  width: 48%;
+  position: relative;
+  padding: 5px;
+}
+
+.aboutImageContainer img {
+  position: absolute;
+  -webkit-box-shadow: 0 0 20px rgba(48, 48, 48, 0.2);
+          box-shadow: 0 0 20px rgba(48, 48, 48, 0.2);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.aboutImageContainer img:nth-child(1) {
+  bottom: -20px;
+  left: 0;
+  z-index: 2;
+}
+
+.aboutImageContainer img:nth-child(2) {
+  top: -10px;
+  right: 0;
+  z-index: 1;
+}
+
+.greatImage {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.greatImageCenter {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.greatImageCenter img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.facilitiesContainer {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.facilitiesContainerCenter {
+  margin: 0 auto;
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.facilitiesLeft {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.facilitiesLeft img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.facilitiesRight {
+  width: 48%;
+}
+
+.facilitiesRight h2:nth-child(1) {
+  color: #007df2;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+}
+
+.facilitiesRight h1:nth-child(2) {
+  font-size: 36px;
+  line-height: 52px;
+  color: #303030;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.facilitiesRight p {
+  color: #777;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.miniImageGalleryContainer {
+  background-color: #f0f0f0;
+  margin: 0 0 20px;
+}
+
+.miniImageGalleryContainerCenter {
+  padding: 30px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.miniImageGalleryContainerCenter img {
+  width: 30%;
+}
+
+.clinicsContainer {
+  margin: 20px 0;
+  padding: 100px 0;
+  background-color: white;
+}
+
+.clinicsContainerCenter {
+  margin: 0 auto;
+}
+
+.clinicsHeading {
+  margin-bottom: 50px;
+}
+
+.clinicsHeading h2 {
+  color: #007df2;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.clinicsHeading h1 {
+  font-size: 36px;
+  line-height: 52px;
+  color: #303030;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.clinicCardsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clinicCard {
+  width: 23%;
+}
+
+.clinicImage {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.clinicImage img {
+  width: 100%;
+}
+
+.clinicCard h2 {
+  font-size: 18px;
+  line-height: 26px;
+  color: #373737;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+}
+
+.clinicCard p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #888888;
+  margin: 0;
+}
+
+.scrollerTop {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: fixed;
+  bottom: 10px;
+  right: 3%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #007df2;
+  color: #fff;
+  cursor: pointer;
+  z-index: 99;
+}
+
+footer {
+  background-color: #141414;
+}
+
+.footerCenter {
+  margin: 0 auto;
+  padding: 100px 0 50px;
+}
+
+.mainFooterContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footerCard {
+  width: 25%;
+}
+
+.footerCard:nth-child(2) {
+  width: 120px;
+}
+
+.footerCard p {
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+}
+
+.footerCard a {
+  text-decoration: none;
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 33px;
+}
+
+.footerCard a:hover {
+  color: #007df2;
+}
+
+.footerCard h3 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+  width: 150px;
+  height: 45px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerCard:nth-child(3) .footerIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 180px;
+}
+
+.footerCard:nth-child(3) .footerIcons i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footerCard:nth-child(3) .footerIcons i:hover {
+  color: #007df2;
+}
+
+.footerCard:nth-child(3) p {
+  line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+  width: 25%;
+}
+
+.footerGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footerImage {
+  width: 32%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.footerImage img {
+  width: 100%;
+}
+
+.hoverInsta {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 22px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hoverInsta:hover {
+  opacity: 1;
+}
+
+.footerCopyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+  margin-top: 50px;
+  background-color: #141414;
+}
+
+.footerCopyright p {
+  margin: 0;
+}
+
+.footerCopyright p span {
+  margin-right: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footerCopyright p span:hover {
+  color: #007df2;
+}
+
+@media screen and (min-width: 1200px) {
+  .footerCenter {
+    width: 1190px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footerCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .footerCard {
+    width: 40% !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerCard,
+  .footerCopyright {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerCard,
+  .footerCopyright {
+    width: 100% !important;
+  }
+  .footerCopyright {
+    line-height: 20px;
+  }
+  .footerCopyright p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .facilitiesContainerCenter,
+  .aboutContainerCenter,
+  .miniImageGalleryContainerCenter,
+  .clinicsContainerCenter {
+    width: 1190px;
+  }
+  .greatImageCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .facilitiesContainerCenter,
+  .aboutContainerCenter,
+  .miniImageGalleryContainerCenter,
+  .clinicsContainerCenter {
+    width: 90%;
+  }
+  .pageIntroSection {
+    height: 30vh;
+  }
+  .pageIntroText {
+    bottom: 50px !important;
+  }
+  .greatImageCenter {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .clinicCard {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .aboutContent {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .aboutImageContainer {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .aboutImageContainer img {
+    width: 90%;
+    position: static;
+    margin: 20px 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pageIntroSection {
+    height: 20vh;
+  }
+  .pageIntroText {
+    bottom: 10px !important;
+  }
+  .aboutContent h1:nth-child(2) {
+    font-size: 30px;
+  }
+  .facilitiesRight {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .facilitiesLeft {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .facilitiesRight h1:nth-child(2),
+  .clinicsHeading h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .miniImageGalleryContainerCenter img {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .clinicCard {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facilitiesRight {
+    width: 100%;
+  }
+  .facilitiesLeft {
+    width: 100%;
+  }
+  .miniImageGalleryContainerCenter img {
+    width: 100%;
+  }
+  .clinicCard {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=ourClinic.css.map */

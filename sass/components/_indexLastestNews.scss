@@ -1,0 +1,111 @@
+.lastestNewsContainer {
+    padding-top: 50px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 100px;
+    .lastestNewsTitle {
+        display: flex;
+        justify-content: space-between;
+      
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+
+        // h2 {
+        //     margin: 0 0 15px;
+        //     color: #303030;
+        //     font-family: Poppins;
+        //     font-weight: 600;
+        // }
+      
+      
+                h3{
+                    padding-left:40px;
+                }
+      
+        .memberArrow {
+            span {
+                color: #303030;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+            i {
+                font-weight: 600;
+                font-size: 56px;
+                line-height: 30px;
+                position: relative;
+                color: rgba(0, 125, 242, 1);
+                top: 17px;
+                margin-left: 6px;
+            }
+        }
+
+        // 
+
+
+    }
+
+    .lastestNewsSlider {
+    max-width: 500px !important;;
+      
+       
+        .lastestNewsCard {
+            p {
+                margin-top: 20px;
+                padding-right: 10px;
+
+                &:hover {
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+                line-height: 26px;
+
+                padding-top: 13px;
+
+                &:hover {
+                    color: $content-color;
+                }
+            }
+        }
+    }
+}
+
+.owl-nav{
+    display: none;
+}
+ 
+.owl-dots{
+    margin: 20px ;
+    text-align: center;
+    outline: none; 
+    border: none;
+}
+.owl-nav .owl-dots .owl-dot span, .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    float: left;
+    background: #c2c2c2;
+    margin: 0 5px !important;
+    transition: all 300ms linear 0ms;
+    margin: 0;
+    border: none;
+    text-align: center;
+  outline: none;
+}
+.owl-nav .owl-dots .owl-dot:hover span, .owl-dots .owl-dot:hover span, .owl-nav .owl-dots .owl-dot.active span, .owl-dots .owl-dot.active span {
+    background: rgba(0, 125, 242, 1);
+    border: none;
+}
+.owl-dot{
+    border: none !important;
+    outline: none !important;
+}

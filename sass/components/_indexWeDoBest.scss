@@ -1,0 +1,121 @@
+#indexWeDoBest{
+    
+    
+    .indexWeDoBestContent{
+        padding: 35px 15px 0px;
+        .viewAllDepartment{
+            padding: 75px 0 120px;
+            display: flex;
+            justify-content: center;
+            color: white;
+           
+            .viewAllContent{
+                &:hover{
+                    background-color: rgba(0, 125, 242, 1);
+                    border-color: #303030;
+
+                   
+
+                }
+                transition: .6s;
+                background-color: #303030;
+                padding: 15.5px 35px;
+                border-radius: 5px;
+                
+            }
+        }
+        .weDoBestText{
+            padding: 82px 0px 67px;
+            .bestFirstSpan{
+                color: rgba(0, 125, 242, 1);
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 0.2em;
+                font-weight: 700;
+                display: block;
+                text-align: center;
+
+            }
+            .bestSecondSpan{
+                font-size: 36px;
+                line-height: 52px;
+                color: #303030;
+                font-weight: 600;
+                display: block;
+                text-align: center;
+
+            }
+            .bestDescription{
+                // font-size: 15px;
+               
+                color: #888;
+                display: flex;
+                
+                justify-content: center;
+                text-align: center;
+                span{
+                    display: block;
+                    font-size: 15px;
+                     line-height: 26px;
+                        color: #888;
+                        font-weight: 500;
+                        padding-top: 12px;
+                    width: 80% !important;
+                    // display: none;
+                }
+           
+
+                padding-top: 12px;
+            }
+        }
+        .contentBestContent{
+            padding: 33px 33px 27px 19px;
+            box-shadow: 0 0 10px rgba(48, 48, 48, 0.1);
+            transition: all 300ms linear 0ms;
+            &:hover{
+                background-color: $content-color;
+                color: white !important;
+                a, p , i{
+                    color: white !important;
+                }
+            }
+            .contentBestContentLeft{
+                border: 1px;
+                i{
+                    font-size: 51px;
+                    line-height: 1;
+                    color: rgba(0, 125, 242, 1);
+                }
+
+            }
+            .contentBestContentRight{
+                a{
+
+                    color: #303030;
+                    &:hover{
+                        text-decoration: none;
+
+                    }
+                }
+                p{
+                    color: #303030;
+                }
+            }
+        }
+        .bestMarginThirty{
+            margin-top: 30px;
+        }
+        .pulmonary, .dental{
+            margin-top: 30px;
+        }
+       
+    }
+}
+.contentBestContentLeft{
+    i{
+        // display: none;
+        padding-right: 5px;
+        font-size: 40px !important;
+        // width: 40px !important;
+    }
+}

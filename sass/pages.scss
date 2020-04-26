@@ -1,0 +1,665 @@
+@import "shared/variables";
+@import "shared/fonts";
+
+// ===================================
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $content-color;
+}
+
+.pagesFaq {
+    width: 100%;
+    background-color: #f5f5f5;
+
+    .contentPagesFaq {
+        padding-top: 92px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+
+        .pagesFaqLeft {
+            .pagesFaqList {
+
+
+
+                .pagesFaqContent {
+                    background: white;
+                    cursor: pointer;
+                    padding: 16px 21px;
+                    border: 1px solid rgba(0, 0, 0, 0.151);
+                    box-sizing: border-box;
+                    text-align: left;
+                    margin-bottom: 13px;
+
+                    h5 {
+                        color: black;
+                        font-size: 18px;
+                        line-height: 26px;
+                        font-family: Poppins;
+                    }
+
+                    p {
+
+                        a {
+                            color: #888;
+                            margin: 0;
+                            font-size: 14px;
+                            line-height: 22px;
+                            cursor: pointer;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+
+
+        .pagesFaqAccardion {
+            background-color: white;
+            // max-width: 720px;
+
+            .accardionTitle {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                position: relative;
+                padding: 41px 49px 18px 29px;
+
+                h3 {
+                    font-size: 20px !important;
+                    margin: 0 0 15px;
+                    color: #303030;
+                    font-family: Poppins;
+                    font-weight: 600
+                }
+            }
+
+            .pagesFaqAcc {
+                // width: 750px;
+                padding-bottom: 20px !important;
+                padding-left: 78px;
+                padding-right: 53px;
+                // transition: 0.3s;
+            }
+
+            .accHeader {
+                border: #e7e7e7 solid 1px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                // transition: .5s;
+
+                &:hover {
+                    background-color: $content-color;
+
+                }
+            }
+
+            .accHeader i {
+                position: absolute;
+                top: 50%;
+                right: 30px;
+                margin-top: -11px;
+                font-size: 22px;
+                cursor: pointer;
+
+            }
+
+            .accHeader a {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                position: relative;
+                padding: 18px 99px 18px 29px;
+                color: black;
+            }
+
+            .accBody {
+
+
+                line-height: 22px;
+                border-top: 0;
+                background: #fff;
+                border: #e6e6e6 solid 1px;
+                display: none;
+
+                // transition: .6s !important;
+                p {
+                    padding: 20px !important;
+                }
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+    .defaultColor {
+        text-decoration: none;
+        color: black;
+        // transition: .3s;
+
+        &:hover {
+            color: $content-color;
+        }
+    }
+
+    .activeColor {
+        border: 1px solid $content-color !important;
+
+    }
+
+    .activeHead {
+        background-color: $content-color !important;
+        // color: white !important;
+    }
+
+    .activeWord {
+        color: $content-color !important;
+    }
+
+    .accHeader:hover i {
+        color: white !important;
+    }
+
+    .accHeader:hover a {
+        color: white !important;
+    }
+
+    .colorDefault {
+        color: white !important;
+    }
+
+    .colorBlack {
+        color: black !important;
+    }
+
+
+
+
+
+
+
+}
+
+#bigPhotoContact {
+
+    padding-top: 251px;
+    padding-bottom: 117px;
+    background-image: url('http://syring.spyropress.com/wp-content/uploads/2019/01/pagetitle-aboutus2.jpg');
+    background-position: center;
+    background-size: cover;
+
+    .title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 45px;
+        color: #303030;
+        text-align: center;
+        font-weight: 600;
+
+    }
+
+    .subTitle {
+        padding: 10px 15px 0px;
+        display: flex;
+        justify-content: center;
+        font-weight: 500 !important;
+
+        span {
+            padding-right: 6px;
+            padding-left: 3px;
+            color: #303030;
+
+            a {
+                text-decoration: none;
+                transition: .6s;
+                color: #303030 !important;
+
+                &:hover {
+                    color: #007bff !important;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+
+
+    }
+}
+
+// ==========================================================================
+
+
+.appointmentContainer {
+    background-color: rgba(0, 125, 242, 1);
+    height: 160px;
+    // margin: 0 0 20px;
+}
+
+// ==========================================================================
+
+.appointmentContainerCenter {
+    height: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+// ==========================================================================
+
+.circleImage {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+// ==========================================================================
+
+.appointmentContent {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+// ==========================================================================
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+// ==========================================================================
+
+.appointBTN {
+    background-color: white;
+    height: 55px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+// ==========================================================================
+
+
+.appointBTN:hover {
+    background-color: #303030 !important;
+    color: white !important;
+}
+
+// ==========================================================================
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $content-color;
+}
+
+
+// ==========================================================================
+
+.secretAccardeon {
+    display: none;
+}
+
+
+
+
+footer {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+.footerCenter {
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+.mainFooterContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footerCard {
+    width: 25%;
+}
+
+.footerCard:nth-child(2) {
+    width: 120px;
+}
+
+.footerCard p {
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+}
+
+.footerCard a {
+    text-decoration: none;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.5s;
+    line-height: 33px;
+
+    &:hover {
+        color: rgba(0, 125, 242, 1);
+    }
+}
+
+.footerCard h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+    width: 150px;
+    height: 45px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerCard:nth-child(3) .footerIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 180px;
+
+    i {
+        transition: 0.5s;
+        cursor: pointer;
+        font-size: 15px;
+
+        &:hover {
+            color: rgba(0, 125, 242, 1);
+        }
+    }
+}
+
+.footerCard:nth-child(3) p {
+    line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+    width: 25%;
+}
+
+.footerGallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerImage {
+    width: 32%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footerImage img {
+    width: 100%;
+}
+
+.hoverInsta {
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: black !important;
+    p {
+        margin: 0;
+
+        span {
+            margin-right: 25px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover {
+                color: rgba(0, 125, 242, 1);
+            }
+        }
+    }
+}
+
+// ================================================================================= MEDIA QUERY FOR FOOTER
+// ================================================================================= MEDIA QUERY FOR FOOTER
+@media screen and (min-width:1200px) {
+    .footerCenter {
+        width: 1190px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .footerCenter {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:968px) {
+    .footerCard {
+        width: 40% !important;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accHeader a {
+        padding: 18px 94px 18px 29px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 100% !important;
+    }
+
+    .footerCopyright {
+        line-height: 20px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    .accHeader a {
+        padding: 9px 66px 18px 29px !important;
+    }
+}
+
+// Media
+
+@media screen and (min-width: 1200px) {
+
+    .appointmentContainerCenter {
+        width: 1140px;
+    }
+
+}
+
+// ==========================================================================
+
+@media screen and (max-width: 1200px) {
+
+    .appointmentContainerCenter {
+        width: 90%;
+    }
+
+    #bigPhotoContact {
+        padding: 48px 0 24px 0 !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .appointmentContent h2 {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .pagesFaqAcc {
+
+        padding-bottom: 20px !important;
+        padding-left: 7px !important;
+        padding-right: 5px !important;
+        transition: 0.3s;
+    }
+}
+
+
+
+
+
+// ==========================================================================
+
+@media screen and (max-width:766px) {
+
+   
+    .secretAccardeon {
+        display: block !important;
+    }
+
+
+    .ResponsivSecretAccardeon {
+        display: none !important;
+    }
+
+
+}
+
+// ==========================================================================
+
+@media screen and (max-width: 560px) {
+    .appointmentContainer {
+        height: 220px;
+    }
+
+    .pagesFaqAcc {
+
+        padding-bottom: 20px !important;
+        padding-left: 18px !important;
+        padding-right: 5px !important;
+    }
+}
+
+// ==========================================================================
+.scrollerTop {
+    opacity: 0;
+    transition: 1s;
+    position: fixed;
+    bottom: 10px;
+    right: 3%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 125, 242, 1);
+    color: #fff;
+    cursor: pointer;
+
+    z-index: 99;
+}

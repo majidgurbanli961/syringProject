@@ -1,0 +1,707 @@
+@import "shared/fonts";
+@import "shared/variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $content-color;
+}
+
+
+// ================================================================================ PAGE INTRO
+// ================================================================================ PAGE INTRO
+.pageIntroSection {
+    // margin: 50px 0 0;
+    background-image: url("../img/pagetitle-aboutus2.jpg");
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    .pageIntroText {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        margin-left: -73px;
+        font-family: "Poppins";
+
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+            text-align: center;
+            font-weight: 600;
+            color: #303030;
+        }
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #303030;
+            font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 500;
+            width: 130px;
+            margin: auto;
+
+            a {
+                text-decoration: none;
+                color: #303030;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.pageIntroText a:hover {
+    color: rgba(0, 125, 242, 1) !important;
+}
+
+
+
+
+// ================================================================================== ABOUT US
+// ================================================================================== ABOUT US
+.aboutContainer {
+    background-color: white;
+    margin: 10px 0;
+}
+
+.aboutContainerCenter {
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutContent {
+    width: 48%;
+}
+
+.aboutContent h2:nth-child(1) {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $content-color;
+}
+
+.aboutContent h1:nth-child(2) {
+    font-size: 36px;
+    font-weight: 600;
+    color: $homeSliderColor;
+    line-height: 52px;
+}
+
+.aboutContent h1:nth-child(2) span {
+    color: $content-color;
+}
+
+.aboutContent p:nth-child(3) {
+    font-size: 18px;
+    line-height: 26px;
+    color: $homeSliderColor;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.aboutContent p:nth-child(4) {
+    font-size: 15px;
+    line-height: 26px;
+    color: #888888;
+}
+
+.aboutContent img:nth-child(5) {
+    margin: 40px 0;
+}
+
+.aboutImageContainer {
+    width: 48%;
+    position: relative;
+    padding: 5px;
+}
+
+.aboutImageContainer img {
+    position: absolute;
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.2);
+    object-fit: contain;
+}
+
+.aboutImageContainer img:nth-child(1) {
+    bottom: -20px;
+    left: 0;
+    z-index: 2;
+}
+
+.aboutImageContainer img:nth-child(2) {
+    top: -10px;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+
+// ====================================================================================== GREAT IMAGE
+// ====================================================================================== GREAT IMAGE
+.greatImage {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+
+.greatImageCenter {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.greatImageCenter img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+// ===================================================================================== FACILITIES
+// ===================================================================================== FACILITIES
+.facilitiesContainer {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+
+.facilitiesContainerCenter {
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.facilitiesLeft {
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.facilitiesLeft img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.facilitiesRight {
+    width: 48%;
+}
+
+.facilitiesRight h2:nth-child(1) {
+    color: rgba(0, 125, 242, 1);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Poppins";
+}
+
+
+.facilitiesRight h1:nth-child(2) {
+    font-size: 36px;
+    line-height: 52px;
+    color: #303030;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.facilitiesRight p {
+    color: #777;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+
+
+// ====================================================================================== MINI IMAGE GALLERY 
+// ====================================================================================== MINI IMAGE GALLERY 
+.miniImageGalleryContainer {
+    background-color: rgb(240, 240, 240);
+    margin: 0 0 20px;
+}
+
+.miniImageGalleryContainerCenter {
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.miniImageGalleryContainerCenter img {
+    width: 30%;
+}
+
+
+
+
+// =========================================================================================== CLINICS 
+// =========================================================================================== CLINICS 
+.clinicsContainer {
+    margin: 20px 0;
+    padding: 100px 0;
+    background-color: white;
+}
+
+.clinicsContainerCenter {
+    margin: 0 auto;
+}
+
+.clinicsHeading {
+    margin-bottom: 50px;
+}
+
+.clinicsHeading h2 {
+    color: rgba(0, 125, 242, 1);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.clinicsHeading h1 {
+    font-size: 36px;
+    line-height: 52px;
+    color: #303030;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.clinicCardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clinicCard {
+    width: 23%;
+}
+
+.clinicImage {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.clinicImage img {
+    width: 100%;
+}
+
+.clinicCard h2 {
+    font-size: 18px;
+    line-height: 26px;
+    color: #373737;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+}
+
+.clinicCard p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #888888;
+    margin: 0;
+}
+
+.scrollerTop {
+
+    opacity: 0;
+    transition: 1s;
+
+    position: fixed;
+    bottom: 10px;
+    right: 3%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 125, 242, 1);
+    color: #fff;
+    cursor: pointer;
+    // visibility: hidden;
+    z-index: 99;
+}
+
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+footer {
+    background-color: rgb(20, 20, 20);
+}
+
+.footerCenter {
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+.mainFooterContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footerCard {
+    width: 25%;
+}
+
+.footerCard:nth-child(2) {
+    width: 120px;
+}
+
+.footerCard p {
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+}
+
+.footerCard a {
+    text-decoration: none;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.5s;
+    line-height: 33px;
+
+    &:hover {
+        color: rgba(0, 125, 242, 1);
+    }
+}
+
+.footerCard h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+    width: 150px;
+    height: 45px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerCard:nth-child(3) .footerIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 180px;
+
+    i {
+        transition: 0.5s;
+        cursor: pointer;
+        font-size: 15px;
+
+        &:hover {
+            color: rgba(0, 125, 242, 1);
+        }
+    }
+}
+
+.footerCard:nth-child(3) p {
+    line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+    width: 25%;
+}
+
+.footerGallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerImage {
+    width: 32%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footerImage img {
+    width: 100%;
+}
+
+.hoverInsta {
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    p {
+        margin: 0;
+
+        span{
+            margin-right: 25px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                color: rgba(0, 125, 242, 1);
+            }
+        }
+    }
+}
+
+// ================================================================================= MEDIA QUERY FOR FOOTER
+// ================================================================================= MEDIA QUERY FOR FOOTER
+@media screen and (min-width:1200px) {
+    .footerCenter {
+        width: 1190px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .footerCenter {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:968px) {
+    .footerCard {
+        width: 40% !important;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 100% !important;
+    }
+
+    .footerCopyright {
+        line-height: 20px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+// ================================================================================= MEDIA QUERY
+// ================================================================================= MEDIA QUERY
+// ================================================================================= MEDIA QUERY
+// ================================================================================= MEDIA QUERY
+
+@media screen and (min-width:1200px) {
+
+    .facilitiesContainerCenter,
+    .aboutContainerCenter,
+    .miniImageGalleryContainerCenter,
+    .clinicsContainerCenter {
+        width: 1190px;
+    }
+
+    .greatImageCenter {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .facilitiesContainerCenter,
+    .aboutContainerCenter,
+    .miniImageGalleryContainerCenter,
+    .clinicsContainerCenter {
+        width: 90%;
+    }
+
+    .pageIntroSection {
+        height: 30vh;
+    }
+
+    .pageIntroText {
+        bottom: 50px !important;
+    }
+
+    .greatImageCenter {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    .clinicCard {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width:842px) {
+    .aboutContent {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .aboutImageContainer {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .aboutImageContainer img {
+        width: 90%;
+        position: static;
+        margin: 20px 5%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .pageIntroSection {
+        height: 20vh;
+    }
+
+    .pageIntroText {
+        bottom: 10px !important;
+    }
+
+    .aboutContent h1:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .facilitiesRight {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .facilitiesLeft {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .facilitiesRight h1:nth-child(2),
+    .clinicsHeading h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .miniImageGalleryContainerCenter img {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .clinicCard {
+        width: 90%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .facilitiesRight {
+        width: 100%;
+    }
+
+    .facilitiesLeft {
+        width: 100%;
+    }
+
+    .miniImageGalleryContainerCenter img {
+        width: 100%;
+    }
+
+    .clinicCard {
+        width: 100%;
+    }
+}

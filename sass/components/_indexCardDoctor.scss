@@ -1,0 +1,59 @@
+.cardDoctor {
+ 
+
+    padding: 50px 10px 47px;
+    background: white;
+ 
+    box-shadow: 0 0 10px rgba(48, 48, 48, 0.1);
+    transition: .6s;
+    text-align: center;
+    margin-bottom:50px ;
+    transition: .6s !important;
+    .doctorContent {
+        width: 100%;
+
+        position: relative;
+        transition: .6s;
+
+        .doctorImg {
+            text-align: center;
+        }
+
+        .doctorName {
+            text-align: center;
+            h4 {
+                margin: 0 0 15px;
+                padding-top: 41px;
+                font-family: 'Poppins';
+              
+                a {
+                    text-decoration: none;
+                    color: #303030;
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-family: 'Poppins';
+                    margin-bottom: 7px;
+                }
+            }
+            span{
+                font-size: 15px;
+                font-weight: 500;
+                color: #888;
+                text-transform: uppercase;
+                font-family: 'Poppins';
+            }
+        }
+
+        .socialIconDoctor {
+            text-align: center;
+            padding-top: 21px;
+            cursor: pointer;
+            i{
+                padding-right: 15px;
+                color:  $content-color;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,1118 @@
+@import "shared/fonts";
+@import "shared/variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $content-color;
+}
+
+// =============================================================================== INTRO IMAGE
+// =============================================================================== INTRO IMAGE
+// =============================================================================== INTRO IMAGE
+// =============================================================================== INTRO IMAGE
+.introImageContainer {
+    height: 40vh;
+    width: 100%;
+    background-image: url("../img/department-page-title.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin: 20px 0 0;
+}
+
+
+.introHeadingCardContainer {
+    background-color: transparent;
+}
+
+.introHeadingCardContainerCenter {
+    margin: 0 auto;
+    position: relative;
+    // height: 50px;
+    height: 1px;
+}
+
+.introHeadingCard {
+    position: absolute;
+    top: -150px;
+    padding: 40px;
+    width: 600px;
+    border-bottom: rgba(0, 125, 242, 1) solid 5px;
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.3);
+    background-color: white;
+}
+
+.introHeadingCard p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.introHeadingCard p:nth-child(1) span {
+    margin-right: 10px;
+    color: #303030;
+}
+
+.introHeadingCard p:nth-child(1) span:nth-child(1) {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.introHeadingCard p:nth-child(1) span:nth-child(1):hover {
+    color: rgba(0, 125, 242, 1) !important;
+}
+
+.introHeadingCard h2 {
+    font-size: 36px;
+    padding-top: 19px;
+    font-family: "Poppins";
+    color: #303030;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 600;
+}
+
+.introHeadingCard p:nth-child(3) {
+    color: #777;
+    font-size: 16px;
+    display: block;
+    margin-top: 9px;
+    line-height: 25px;
+    padding-top: 5px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+
+
+// =============================================================================== MAIN CONTENT
+.mainContent {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+// =============================================================================== MAIN LEFT
+// =============================================================================== MAIN LEFT
+// =============================================================================== MAIN LEFT
+// =============================================================================== MAIN LEFT
+
+.mainLeft {
+    width: 60%;
+    padding: 230px 0 50px;
+}
+
+
+.mainLeftCenter {
+    width: 780px;
+    margin-left: auto;
+    padding: 30px;
+}
+
+
+.mainFirstImage {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.mainFirstImage img {
+    width: 100%;
+}
+
+.mainLeftCenter h2 {
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 33px;
+    margin: 50px 0;
+    color: #303030;
+    font-weight: 600;
+}
+
+.mainQuote {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.mainQuote i {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 125, 242, 1);
+    line-height: 23px;
+    margin-right: 25px;
+}
+
+.mainQuote p {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: #303030;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.mainLeftCenter p:nth-child(4),
+.mainLeftCenter p:nth-child(6) {
+    color: #777;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.mainLeftCenter h3:nth-child(5),
+.mainLeftCenter h3:nth-child(7) {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 15px;
+    color: #303030;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.rootLists {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0 10px 20px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(120, 120, 120);
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.rootLists p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    color: #777777;
+    width: calc(100% - 30px);
+    margin: 0;
+}
+
+.specialCareLists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listsLeft {
+    width: 45%;
+    margin-left: 20px;
+}
+
+.listsRight {
+    width: 45%;
+}
+
+.careListCard {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.careListCard i {
+    margin-right: 20px;
+    color: rgba(0, 125, 242, 1);
+}
+
+.careListCard p {
+    font-weight: 500;
+    font-weight: "Poppins";
+    font-size: 14px;
+    margin: 0;
+}
+
+.tables {
+    margin: 40px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tables p {
+    margin: 0;
+}
+
+.tableLeft,
+.tableRight {
+    width: 45%;
+    border: #e7e7e7 solid 1px;
+}
+
+.tableHeading {
+    padding: 10px 20px;
+    background-color: rgb(229, 242, 254);
+    font-size: 16px;
+    color: #303030;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+
+.tableRows {
+    padding: 10px 20px;
+}
+
+.tableData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #e6e6e6 solid 1px;
+    font-size: 14px;
+    color: #303030;
+    padding: 12.5px 0;
+    background-color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.tableLeft .tableData:last-child,
+.tableRight .tableData:last-child {
+    border: none;
+}
+
+.dentistGallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galleryCard {
+    width: 32%;
+    position: relative;
+}
+
+.hoverEffect {
+    position: absolute;
+    background-color: rgba(0, 125, 242, 0);
+    opacity: 0;
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.hoverEffect i {
+    cursor: pointer;
+}
+
+.galleryCard img {
+    width: 100%;
+}
+
+.galleryCard:hover .hoverEffect {
+    background-color: rgba(0, 125, 242, 0.7);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+// ========================================================================== MAIN RIGHT
+// ========================================================================== MAIN RIGHT
+// ========================================================================== MAIN RIGHT
+// ========================================================================== MAIN RIGHT
+.mainRight {
+    width: 40%;
+    background-color: rgb(245, 245, 245);
+    padding: 230px 0 50px;
+}
+
+
+.mainRightCenter {
+    width: 400px;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.mainRightCenter h2 {
+    font-size: 24px;
+    border: none;
+    position: relative;
+    margin: 0 0 15px 0;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #303030;
+}
+
+.halfBorder {
+    width: 30%;
+    border: 1px solid rgba(0, 125, 242, 1);
+    margin-bottom: 25px;
+}
+
+.departmentsNavigation {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.3);
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.departmentCard {
+    display: flex;
+    align-items: center;
+    border-bottom: #e6e6e6 solid 1px;
+    padding: 18px 15%;
+    border-right: 5px solid white;
+    transition: 0.5s;
+    box-shadow: rgba(255, 255, 255, 1) -11px 11px 25px -11px;
+}
+
+.departmentCard i {
+    font-size: 30px;
+    margin: 0 20px 0 0;
+    color: #888;
+    transition: 0.5s;
+}
+
+.departmentCard p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: #303030;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.departmentCard:hover {
+    border-right: 5px solid rgba(0, 125, 242, 1);
+    box-shadow: rgba(48, 48, 48, 0.2) -11px 11px 25px -11px;
+}
+
+.departmentCard:hover i,
+.departmentCard:hover p {
+    color: rgba(0, 125, 242, 1);
+}
+
+.departmentCardSelected {
+    border-right: 5px solid rgba(0, 125, 242, 1) !important;
+    box-shadow: rgba(48, 48, 48, 0.2) -11px 11px 25px -11px !important;
+}
+
+.departmentCardSelectedTextColor {
+    color: rgba(0, 125, 242, 1) !important;
+}
+
+.clinicInput {
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 1) -11px 11px 25px -11px;
+    margin-bottom: 60px;
+    padding: 32px 25px 26px;
+}
+
+.clinicInput label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #303030;
+    font-family: "Poppins";
+    margin: 15px 0;
+}
+
+.clinicInput input,
+select {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid white;
+    width: 100%;
+    padding: 5px 23px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    line-height: 28px;
+    height: 50px;
+    color: rgba(0, 125, 242, 1);
+    transition: 0.5s;
+}
+
+select {
+    color: #777;
+}
+
+input[type="date"] {
+    color: #777;
+}
+
+.clinicInput input::placeholder {
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #777;
+}
+
+.clinicInput input:focus,
+select:focus {
+    background-color: white;
+    border: 1px solid rgba(0, 125, 242, 1);
+    color: rgba(0, 125, 242, 1);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin: 25px 0 10px;
+    border: none;
+    background-color: rgba(0, 125, 242, 1);
+    color: white;
+    font-weight: "Poppins";
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #303030;
+}
+
+
+.workingCard {
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 1) -11px 11px 25px -11px;
+    margin-bottom: 60px;
+    padding: 15px 25px;
+}
+
+.workingCard p {
+    font-family: "Poppins";
+    font-size: 14px;
+    padding: 15px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.workingCard p:nth-child(2) {
+    border-top: #e6e6e6 solid 1px;
+    border-bottom: #e6e6e6 solid 1px;
+}
+
+.workingCard p span:nth-child(1) {
+    color: #777777;
+    font-weight: 600;
+}
+
+.workingCard p span:nth-child(2) {
+    color: #303030;
+    font-weight: 500;
+}
+
+.contactContainer {
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 1) -11px 11px 25px -11px;
+    margin-bottom: 60px;
+    padding: 32px 25px 26px;
+}
+
+.contactRow {
+    display: flex;
+    margin: 20px 0;
+}
+
+.contactIcon {
+    font-size: 15px;
+    color: #303030;
+    margin-right: 15px;
+    width: 20px;
+}
+
+.contactTex {
+    background-color: transparent;
+}
+
+.contactTex p {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    color: #303030;
+}
+
+.contactTex p:nth-child(2) {
+    color: #777777;
+}
+
+
+
+
+/* ========================================================================== MODAL FOR IMAGE */
+/* ========================================================================== MODAL FOR IMAGE */
+/* ========================================================================== MODAL FOR IMAGE */
+/* ========================================================================== MODAL FOR IMAGE */
+.modalGallery {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+    cursor: zoom-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal-content {
+    background-color: white;
+    height: 80vh;
+    width: 60vw;
+    padding: 10px;
+    border: 5px solid black;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+    transform: scale(0.1);
+}
+
+.imageHolder {
+    position: relative;
+    width: 100%;
+    height: 93%;
+}
+
+.imageHolder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: default;
+    transition: 0.5s;
+}
+
+.imageHolder i {
+    position: absolute;
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    color: #303030;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.imageHolder i:nth-child(1) {
+    left: 0;
+    top: 50%;
+}
+
+.imageHolder i:nth-child(3) {
+    right: 0;
+    top: 50%;
+}
+
+.imageHolder:hover i {
+    opacity: 1;
+}
+
+.modalNavigation {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+}
+
+.modalLeftNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 5px;
+}
+
+.modalLeftNav i {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #303030;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.modalLeftNav i:nth-child(1) {
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+
+.modalLeftNav p {
+    margin: 0;
+    font-style: italic;
+    font-size: 12px;
+    color: #777;
+}
+
+.exit {
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    color: #303030;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.modalLeftNav i:hover,
+.exit:hover {
+    border: 1px solid rgb(241, 239, 239);
+    color: #777777;
+}
+
+
+
+.scrollerTop {
+
+    opacity: 0;
+    transition: 1s;
+
+    position: fixed;
+    bottom: 10px;
+    right: 3%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 125, 242, 1);
+    color: #fff;
+    cursor: pointer;
+    // visibility: hidden;
+    z-index: 99;
+}
+
+
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+// ================================================================================= FOOTER
+footer {
+    background-color: rgb(20, 20, 20);
+}
+
+.footerCenter {
+    margin: 0 auto;
+    padding: 100px 0 50px;
+}
+
+.mainFooterContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footerCard {
+    width: 25%;
+}
+
+.footerCard:nth-child(2) {
+    width: 120px;
+}
+
+.footerCard p {
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+}
+
+.footerCard a {
+    text-decoration: none;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.5s;
+    line-height: 33px;
+
+    &:hover {
+        color: rgba(0, 125, 242, 1);
+    }
+}
+
+.footerCard h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+    width: 150px;
+    height: 45px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerCard:nth-child(3) .footerIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 180px;
+
+    i {
+        transition: 0.5s;
+        cursor: pointer;
+        font-size: 15px;
+
+        &:hover {
+            color: rgba(0, 125, 242, 1);
+        }
+    }
+}
+
+.footerCard:nth-child(3) p {
+    line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+    width: 25%;
+}
+
+.footerGallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerImage {
+    width: 32%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footerImage img {
+    width: 100%;
+}
+
+.hoverInsta {
+    position: absolute;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #999999;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    p {
+        margin: 0;
+
+        span{
+            margin-right: 25px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                color: rgba(0, 125, 242, 1);
+            }
+        }
+    }
+}
+
+// ================================================================================= MEDIA QUERY FOR FOOTER
+// ================================================================================= MEDIA QUERY FOR FOOTER
+@media screen and (min-width:1200px) {
+    .footerCenter {
+        width: 1190px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .footerCenter {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:968px) {
+    .footerCard {
+        width: 40% !important;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .footerCard,
+    .footerCopyright {
+        width: 100% !important;
+    }
+
+    .footerCopyright {
+        line-height: 20px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+
+// =================================================================================== MEDIA QUERY
+// =================================================================================== MEDIA QUERY
+// =================================================================================== MEDIA QUERY
+// =================================================================================== MEDIA QUERY
+@media screen and (max-width:1300px) {
+    .mainLeft {
+        width: 70%;
+    }
+
+    .mainRight {
+        width: 30%;
+    }
+
+    .mainLeftCenter {
+        width: 100%;
+    }
+
+    .mainRightCenter {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    .introImageContainer {
+        height: 40vh;
+    }
+
+    .introHeadingCardContainerCenter {
+        width: 1190px;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .introImageContainer {
+        height: 50vh;
+    }
+
+    .introHeadingCardContainerCenter {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .mainLeftCenter {
+        width: 80%;
+    }
+
+    .mainRightCenter {
+        width: 95%;
+    }
+
+    .departmentCard {
+        padding: 15px 3%;
+    }
+
+    .listsLeft,
+    .listsRight {
+        width: 60%;
+        margin: 0 auto 0 20px;
+    }
+
+    .tableLeft,
+    .tableRight {
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    .modal-content {
+        width: 80vw;
+        height: 60vh;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .mainLeft {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+        padding-top: 120px;
+    }
+
+    .mainRight {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        background-color: white;
+    }
+
+    .mainRightCenter,
+    .mainLeftCenter {
+        margin: auto;
+        width: 80%;
+    }
+
+    .departmentCard {
+        padding: 18px 5%;
+    }
+
+    .tableLeft,
+    .tableRight {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .introHeadingCard {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .introHeadingCard p:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .introHeadingCard h2 {
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .mainLeft,
+    .mainRight {
+        width: 90%;
+    }
+
+    .mainRightCenter,
+    .mainLeftCenter {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tableLeft,
+    .tableRight {
+        width: 90%;
+    }
+
+    .modal-content {
+        width: 95vw;
+        height: 40vh;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .galleryCard {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .tableLeft,
+    .tableRight {
+        width: 100%;
+    }
+}

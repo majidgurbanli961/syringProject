@@ -1,0 +1,64 @@
+#modalHome {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: .5s;
+    display: none;
+
+    z-index: 99 !important;
+    background-color: black;
+    opacity: 0.9;
+
+    .modalHomeContent {
+        height: 100vh;
+        position: relative;
+
+        .modalExit {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            z-index: 444;
+
+            i {
+                color: rgb(90, 87, 87);
+                cursor: pointer;
+
+                font-size: 22px !important;
+
+                transition: 1s;
+
+                &:hover {
+
+                    transform: scale(1.2);
+                    color: white !important;
+                }
+            }
+        }
+
+        .modalHomeYoutube {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-color: transparent !important;
+        }
+
+        .modalHomeYoutubeContent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+            iframe {
+                transform: scale(1);
+            }
+
+
+        }
+    }
+}

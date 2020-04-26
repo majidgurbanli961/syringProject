@@ -1,0 +1,53 @@
+
+
+    .professionalDoctor{
+        padding-top: 50px;
+        width: 75% ;
+        margin: auto;
+       
+  
+    
+       .professionalDoctorRow{
+      
+        display: flex;
+        justify-content: space-around   ;
+        align-items: baseline;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        .professionalDoctorTitle{
+            padding-top: 79px !important;
+            padding-bottom: 4px !important;
+       
+             strong{
+                font-size: 14px;
+                color: #007df2;
+                letter-spacing: 0.2em;
+             
+         }
+        }
+        .memberArrow{
+            // margin-top: 46px;
+            
+                &:hover{
+                    text-decoration: none;
+                }
+                span{
+                    color: #303030;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                i{
+                    font-weight: 600;
+                    font-size: 56px;
+                    line-height: 30px;
+                    position: relative;
+                    color: rgba(0, 125, 242, 1);
+                    top: 17px;
+                    margin-left: 6px;
+                }
+            
+
+        }
+    }
+}

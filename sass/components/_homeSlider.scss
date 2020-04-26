@@ -1,0 +1,396 @@
+@import "../shared/variables";
+@import "../shared/fonts";
+
+.homeContainer * {
+    box-sizing: border-box;
+}
+
+
+
+/* ========================================================================================================= HOME */
+/* ========================================================================================================= HOME */
+/* ========================================================================================================= HOME */
+/* ========================================================================================================= HOME */
+.homeContainer {
+    background-color: transparent;
+    margin: 0 0 20px;
+}
+
+.homeFrame {
+    background-color: transparent;
+    position: relative;
+}
+
+.homeSlider {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+}
+
+.homeSlider:nth-child(1) {
+    z-index: 5;
+}
+
+.homeSlider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeDarker {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80vh;
+    width: 100%;
+    color: white;
+    z-index: 6;
+}
+
+.homeSliderOrder {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -32px;
+    width: 20px;
+    z-index: 10;
+}
+
+.orders {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.bottomBorder {
+    width: 5px;
+    margin-left: auto;
+    border: 5px solid white;
+    transition: 0.2s linear all;
+    border-radius: 20px;
+}
+
+.selectedBorder {
+    border: 5px solid $content-color;
+    width: 100%;
+}
+
+.orders:hover .bottomBorder {
+    border: 5px solid $content-color;
+    width: 100%;
+}
+
+.homeSliderContents {
+    position: absolute;
+    width: 1400px;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+    left: 50%;
+    margin-left: -700px;
+}
+
+.homeTextContainer {
+    position: absolute;
+    top: 50%;
+    margin-top: -160px;
+    left: 0;
+    width: 500px;
+    height: 320px;
+    transition: 1s;
+}
+
+.homeText {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.homeText:nth-child(1) {
+    z-index: 5;
+}
+
+.homeText:nth-child(2) {
+    width: 650px;
+}
+
+.homeText h3 {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    line-height: 52px;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.homeText h3:nth-child(1) {
+    font-size: 72px;
+    color: $homeSliderColor;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 95px;
+    letter-spacing: 0px;
+    height: 200px;
+    text-align: left;
+}
+
+.homeText h3:nth-child(2) {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: "Poppins";
+    text-align: left;
+    color: $homeSliderColor;
+}
+
+.homeText h3:nth-child(3) {
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+    height: 60px;
+}
+
+.homeText h3:nth-child(1) span,
+.homeText h3:nth-child(2) span {
+    width: 100%;
+    position: absolute;
+    top: -350px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.homeText h3:nth-child(3) span {
+    position: absolute;
+    top: 350px;
+    width: 30%;
+    height: 90%;
+    left: 0;
+    transition: 0.1s;
+    background-color: $content-color;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.homeText h3:nth-child(3) span:hover {
+    background-color: $homeSliderColor !important;
+}
+
+.animationClassFromBottom {
+    top: 50px;
+    animation-name: fromBottom;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+.animationClassFromTop {
+    top: 50px;
+    animation-name: fromTop;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: 1s;
+}
+
+@keyframes fromTop {
+    from {
+        top: -350px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        top: 350px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+
+
+
+/* ========================================================================================================= FANCY */
+/* ========================================================================================================= FANCY */
+/* ========================================================================================================= FANCY */
+/* ========================================================================================================= FANCY */
+.fancyContainer {
+    background-color: white;
+    margin: 10px 0;
+}
+
+.fancyContainerCenter {
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.fancyCard {
+    width: 30%;
+    padding: 40px 20px;
+    border: #ececec solid 1px;
+    transition: 0.5s !important;
+}
+
+.fancyCardIcon {
+    text-align: center;
+    font-size: 75px;
+    color: $content-color;
+    margin-bottom: 40px;
+}
+
+.fancyCard h2 {
+    font-weight: 600;
+    text-align: center;
+    color: $homeSliderColor;
+    font-size: 18px;
+    margin: 18px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fancyCard p {
+    text-align: center;
+    color: #888888;
+    margin: 14px 0;
+}
+
+.fancyMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fancyMore span {
+    color: $content-color;
+    margin: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fancyMoreIcon {
+    background-color: white;
+    font-size: 25px;
+    overflow: hidden;
+    width: 0;
+    transition: 0.5s;
+    color: $content-color;
+    cursor: pointer;
+}
+
+.fancyCard:hover {
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.2);
+}
+
+.fancyCard:hover .fancyMoreIcon {
+    width: 25px;
+}
+
+.fancyCard:hover .fancyMore span {
+    color: $homeSliderColor;
+}
+
+.fancyCard h2:hover {
+    color: $content-color;
+}
+
+
+
+
+/* ========================================================================================================= ABOUT US */
+/* ========================================================================================================= ABOUT US */
+/* ========================================================================================================= ABOUT US */
+/* ========================================================================================================= ABOUT US */
+
+.aboutContainer {
+    background-color: rgb(245, 245, 245);
+    margin: 10px 0;
+}
+
+.aboutContainerCenter {
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutContent {
+    width: 48%;
+}
+
+.aboutContent h2:nth-child(1) {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $content-color;
+}
+
+.aboutContent h1:nth-child(2) {
+    font-size: 36px;
+    font-weight: 600;
+    color: $homeSliderColor;
+    line-height: 52px;
+}
+
+.aboutContent h1:nth-child(2) span {
+    color: $content-color;
+}
+
+.aboutContent p:nth-child(3) {
+    font-size: 18px;
+    line-height: 26px;
+    color: $homeSliderColor;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.aboutContent p:nth-child(4) {
+    font-size: 15px;
+    line-height: 26px;
+    color: #888888;
+}
+
+.aboutContent img:nth-child(5) {
+    margin: 40px 0;
+}
+
+.aboutImageContainer {
+    width: 48%;
+    position: relative;
+    padding: 5px;
+}
+
+.aboutImageContainer img {
+    position: absolute;
+    box-shadow: 0 0 20px rgba(48, 48, 48, 0.2);
+    object-fit: contain;
+}
+
+.aboutImageContainer img:nth-child(1) {
+    bottom: -20px;
+    left: 0;
+    z-index: 2;
+}
+
+.aboutImageContainer img:nth-child(2) {
+    top: -10px;
+    right: 0;
+    z-index: 1;
+}

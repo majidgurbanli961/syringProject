@@ -1,0 +1,1497 @@
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 500;
+  color: #777;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+}
+
+.preloaderOverlow {
+  overflow: hidden !important;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999999999999999999999999999999999999999999999999999;
+  background-image: url("../img/medical.gif");
+  background-repeat: no-repeat;
+  background-color: #39b49a;
+  background-position: center;
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007df2;
+}
+
+.modalSerach {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  background: rgba(11, 11, 11, 0.95);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modalInputSerach {
+  width: 400px;
+  padding: 11px 20px;
+  font-size: 14px;
+  line-height: 28px;
+  height: 62px;
+  font-weight: 500;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  background-color: #fff;
+  text-align: inherit;
+  color: #777;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.modalInputSerach:focus {
+  border-color: #007df2;
+  color: #007df2;
+}
+
+.modalInputSerach:focus::-webkit-input-placeholder {
+  color: #007df2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.search-submit {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  padding: 15.5px 36px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #fff;
+  border-style: solid;
+  border: 1px solid white;
+  background-color: #303030;
+  background-image: url(inherit);
+  background-size: cover;
+  background-position: inherit;
+  background-attachment: inherit;
+  border-radius: 5px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.search-submit:hover {
+  background-color: #007df2;
+}
+
+.inputTextSerach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inputSubmit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.search-description {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.circleSerach {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.circleSerach i {
+  width: 44px;
+  height: 44px;
+  font-size: 26px;
+  color: #fff;
+  opacity: 0.65;
+  z-index: 9999;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.circleSerach i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: white;
+}
+
+.scrollerTop {
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: fixed;
+  bottom: 10px;
+  right: 3%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #007df2;
+  color: #fff;
+  cursor: pointer;
+  z-index: 99;
+}
+
+footer {
+  background-color: #3c3c3c;
+}
+
+.footerCenter {
+  margin: 0 auto;
+  padding: 100px 0 80px;
+}
+
+.mainFooterContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footerCard {
+  width: 25%;
+  background-color: transparent;
+}
+
+.footerCard:nth-child(2) {
+  width: 140px;
+  background-color: transparent;
+}
+
+.footerCard p {
+  color: #d4d3d3;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+}
+
+.footerCard a {
+  text-decoration: none;
+  color: #d4d3d3;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 33px;
+}
+
+.footerCard a:hover {
+  color: #007df2;
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+}
+
+.footerCard h3 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+  width: 150px;
+  height: 45px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerCard:nth-child(2) .footerLinks .fa-arrow-right {
+  color: #007df2;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.footerCard:nth-child(3) .footerIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 180px;
+}
+
+.footerCard:nth-child(3) .footerIcons i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footerCard:nth-child(3) .footerIcons i:hover {
+  color: #007df2;
+}
+
+.footerCard:nth-child(3) p {
+  line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+  width: 25%;
+}
+
+.footerCarouselContainer {
+  background-color: transparent;
+}
+
+.footerCarouselContainer .footerCarousel {
+  background-color: transparent;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle {
+  background-color: transparent;
+  cursor: e-resize;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .commentFooter {
+  background: #737373;
+  width: 100%;
+  padding: 14px 19px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: "Poppins";
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .commentFooter .bottomTriangle {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 0;
+  border-color: #737373 transparent transparent transparent !important;
+  border-top-color: inherit;
+  position: absolute;
+  left: 23px;
+  bottom: -11px;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .iconAndContentFooter {
+  width: 98%;
+  margin-top: 25px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .iconAndContentFooter i {
+  line-height: 32px;
+  font-size: 15px;
+  width: 32px;
+  display: inline-block;
+  background-color: #007df2;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .iconAndContentFooter .contentFooter {
+  background-color: transparent;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .iconAndContentFooter .contentFooter p:nth-child(1) {
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.footerCarouselContainer .footerCarousel .itemForStyle .iconAndContentFooter .contentFooter p:nth-child(2) {
+  font-size: 10px;
+  color: white;
+  margin: 0;
+  font-weight: 500;
+  font-family: "Poppins";
+  line-height: 20px;
+}
+
+.footerCopyright {
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+.footerCopyright .copyRightCenter {
+  padding: 20px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+}
+
+.footerCopyright .copyRightCenter p {
+  margin: 0;
+}
+
+.footerCopyright .copyRightCenter p span {
+  margin-right: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footerCopyright .copyRightCenter p span:hover {
+  color: #007df2;
+}
+
+@media screen and (min-width: 1200px) {
+  .footerCenter,
+  .copyRightCenter {
+    width: 1190px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footerCenter,
+  .copyRightCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .footerCard {
+    width: 40% !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerCard,
+  .copyRightCenter {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerCard,
+  .copyRightCenter {
+    width: 100% !important;
+  }
+  .copyRightCenter {
+    line-height: 20px;
+  }
+  .copyRightCenter p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .samplePage1, .samplePage2 {
+    padding-right: 0px !important;
+  }
+  .responsiveMenudrop {
+    left: -150px !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #515252;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007df2;
+}
+
+.color1 {
+  position: absolute;
+  /* background: gray; */
+  width: 38%;
+  height: 106%;
+  padding: 39px;
+  top: -100px;
+  background: #f5f5f5;
+}
+
+#bigPhotoContent {
+  position: relative;
+  z-index: 1;
+  background-image: url("http://syring.spyropress.com/wp-content/themes/syring/assets/images/doctor-page-title.jpg");
+  padding: 106px 0 114px 0;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+#bigPhotoContent .bigPhotoContentText {
+  z-index: 3;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#bigPhotoContent .bigPhotoContentText .contentTextLeft span {
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+#bigPhotoContent .bigPhotoContentText .contentTextRight span {
+  color: #ffffff;
+}
+
+#bigPhotoContent .bigPhotoContentText .contentTextRight a {
+  text-decoration: none;
+}
+
+#bigPhotoContent .bigPhotoContentText .contentTextRight a span {
+  -webkit-transition: .6s;
+  transition: .6s;
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 3px;
+  padding-left: 6px;
+  color: #ffffff;
+}
+
+#bigPhotoContent .bigPhotoContentText .contentTextRight a span:hover {
+  color: #007DF2 !important;
+}
+
+#bigPhotoContent .bigPhotoDarkLayout {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#mainContent {
+  position: relative;
+}
+
+#mainContent .mainContentLeft {
+  padding: 120px 30px 0px 15px;
+}
+
+#mainContent .mainContentLeft .backColour {
+  position: relative;
+  left: -45% !important;
+  top: -600px;
+  z-index: -1;
+  background-color: #F5F5F5;
+  height: 200vh;
+  width: 145%;
+}
+
+#mainContent .mainContentLeft .doctorInfo img {
+  width: 100%;
+  margin-bottom: 35px !important;
+}
+
+#mainContent .mainContentLeft .doctorInfo h1 {
+  color: #303030;
+  padding: 2px 0px 0px;
+  margin: 0px 0px 12px;
+}
+
+#mainContent .mainContentLeft .doctorInfo h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 15px;
+  padding: 2px 0px 16px;
+  color: #007df2;
+}
+
+#mainContent .mainContentLeft .doctorInfo .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 71px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .socialMedia a {
+  -webkit-transition: .6s;
+  transition: .6s;
+  font-size: 16px;
+  line-height: 35px;
+  float: left;
+  width: 35px;
+  height: 35px;
+  background: #eee;
+  margin-right: 10px;
+  color: #303030;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#mainContent .mainContentLeft .doctorInfo .socialMedia a:hover {
+  background: #007df2;
+  border-color: #007df2;
+  color: #fff;
+}
+
+#mainContent .mainContentLeft .doctorInfo .qualification {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainContent .mainContentLeft .doctorInfo .qualification i {
+  color: #007df2;
+  font-size: 25px;
+  padding-right: 6px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .qualification h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  color: #303030;
+  display: inline-block;
+  -webkit-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+}
+
+#mainContent .mainContentLeft .doctorInfo .description {
+  padding-top: 23px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .contactInfo {
+  margin-top: 65px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mainContent .mainContentLeft .doctorInfo .contactInfo i {
+  color: #007df2;
+  font-size: 25px;
+  padding-right: 6px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .contactInfo h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  color: #303030;
+  display: inline-block;
+  -webkit-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+}
+
+#mainContent .mainContentLeft .doctorInfo .telephone {
+  padding-top: 24px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .telephone .telephoneContent i {
+  padding-right: 15px;
+  font-size: 15px;
+  color: #303030;
+}
+
+#mainContent .mainContentLeft .doctorInfo .workingTimeHeader {
+  margin-top: 65px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .workingTime ul {
+  list-style: none;
+  padding-top: 25px;
+  padding-left: 0px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .workingTime ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+#mainContent .mainContentLeft .doctorInfo .workingTime ul li p {
+  color: #303030;
+}
+
+#mainContent .mainContentRight {
+  background-color: white !important;
+  margin-top: 114px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent h3 {
+  color: #303030;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .textWithBrackets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 18px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .textWithBrackets i {
+  font-size: 18px;
+  color: #007df2;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .textWithBrackets .bracketsRight {
+  margin-left: 45px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .textWithBrackets .bracketsRight span {
+  font-weight: 600;
+  font-size: 15px;
+  color: #303030;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .skill {
+  padding-top: 28px;
+  font-weight: 600;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .lists {
+  padding-top: 22px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .lists ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .lists ul li {
+  padding-bottom: 14px !important;
+  padding-bottom: 28px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .lists ul li i {
+  color: #007df2;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .lists ul li span {
+  color: #303030;
+  font-weight: 600;
+  padding-left: 14px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .freeConsultation {
+  padding-top: 14px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight {
+  padding-bottom: 14px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .fullName {
+  margin-bottom: 14px;
+  color: #303030;
+  font-weight: 600;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .errorMesage {
+  padding-bottom: 8px;
+  color: red !important;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .rightInput {
+  -webkit-transition: .6s;
+  transition: .6s;
+  padding: 20px 20px;
+  background-color: #F5F5F5;
+  border-style: none;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 26px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .rightInput:hover {
+  border-color: #007df2;
+  background-color: white;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .rightInput:active {
+  border-color: #007df2;
+  background-color: white;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .rightLeftContent .rightInput:focus {
+  border-color: #007df2;
+  background-color: white;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .buttonDiv {
+  margin-top: 4px;
+  padding-bottom: 114px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .buttonDiv input {
+  width: 100%;
+  padding: 16.5px 35px;
+  border-style: none;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 600;
+  -webkit-transition: all 300ms linear 0ms !important;
+  transition: all 300ms linear 0ms !important;
+  border-radius: 5px;
+  background-color: #007DF2;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .buttonDiv input:hover {
+  background: #303030;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .buttonDiv .note {
+  padding-top: 15px;
+}
+
+#mainContent .mainContentRight .mainContentRightContent .contactParentRight .buttonDiv .secondErrorMessage {
+  display: none;
+  margin: 28px 7px 14px;
+  border: 2px solid #f7e700;
+  padding: 2.8px 14px;
+}
+
+.appointmentContainer {
+  background-color: #007df2;
+  height: 160px;
+}
+
+.appointmentContainerCenter {
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circleImage {
+  position: absolute;
+  bottom: 0;
+  z-index: 9;
+}
+
+.appointmentContent {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.appointBTN {
+  background-color: white;
+  height: 55px;
+  width: 235px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.appointBTN:hover {
+  background-color: #303030 !important;
+  color: white !important;
+}
+
+footer {
+  background-color: #141414;
+}
+
+.footerCenter {
+  margin: 0 auto;
+  padding: 100px 0 50px;
+}
+
+.mainFooterContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footerCard {
+  width: 25%;
+}
+
+.footerCard:nth-child(2) {
+  width: 120px;
+}
+
+.footerCard p {
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+}
+
+.footerCard a {
+  text-decoration: none;
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 33px;
+}
+
+.footerCard a:hover {
+  color: #007df2;
+}
+
+.footerCard h3 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.footerCard:nth-child(1) img {
+  width: 150px;
+  height: 45px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.footerCard:nth-child(2) .footerLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerCard:nth-child(3) .footerIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 180px;
+}
+
+.footerCard:nth-child(3) .footerIcons i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footerCard:nth-child(3) .footerIcons i:hover {
+  color: #007df2;
+}
+
+.footerCard:nth-child(3) p {
+  line-height: 28px;
+}
+
+.footerCard:nth-child(4) {
+  width: 25%;
+}
+
+.footerGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footerImage {
+  width: 32%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.footerImage img {
+  width: 100%;
+}
+
+.hoverInsta {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 22px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hoverInsta:hover {
+  opacity: 1;
+}
+
+.footerCopyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #999999;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 33px;
+  font-size: 15px;
+  margin-top: 50px;
+  background-color: #141414;
+}
+
+.footerCopyright p {
+  margin: 0;
+}
+
+.footerCopyright p span {
+  margin-right: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footerCopyright p span:hover {
+  color: #007df2;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #mainContent .mainContentLeft .doctorInfo .qualification h5,
+  #mainContent .mainContentLeft .doctorInfo .contactInfo h5 {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .bigPhotoContentText {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonDiv {
+    padding-bottom: 114px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .buttonDiv {
+    padding-bottom: 14px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footerCenter {
+    width: 1190px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footerCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .footerCard {
+    width: 40% !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerCard,
+  .footerCopyright {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerCard,
+  .footerCopyright {
+    width: 100% !important;
+  }
+  .footerCopyright {
+    line-height: 20px;
+  }
+  .footerCopyright p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .appointmentContainerCenter {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .appointmentContainerCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .appointmentContent h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .appointmentContainer {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1471px) {
+  .color1 {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .color1 {
+    width: 33% !important;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .color1 {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=singleDoctor.css.map */

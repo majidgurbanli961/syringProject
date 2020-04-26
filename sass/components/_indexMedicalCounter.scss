@@ -1,0 +1,72 @@
+.medicalCounter {
+    width: 100%;
+    margin-top: -105px ;
+    
+      
+
+    .medicalCenterCount {
+   
+        padding-top: 92px !important;
+        padding-bottom: 65px !important;
+        display: flex;
+        text-align: center;
+        box-shadow: 8px 0 62px rgba(48, 48, 48, 0.16);
+        // background-color: #ffffff !important;
+        background-color: #fff;
+        overflow:hidden !important ;
+        .counter-wrap1 {
+            width: 100%;
+            padding-bottom: 20px;
+            .counter-digit-wrap {
+                font-size: 60px;
+                line-height: 1;
+                font-weight: 400;
+                color: rgba(0, 125, 242, 1);
+                display: inline-block;
+                position: relative;
+
+                .subDigit,.subDigit-end,.subDigit-percent {
+                    display: inline-block;
+                    position: absolute;
+                    left: 130px;
+                    top: -9px;
+                    font-size: 28px;
+                    color: rgba(0, 125, 242, 1);
+                    font-weight: 400;
+                }
+                .subDigit-percent{
+                    font-size: 60px;
+                line-height: 1;
+                font-weight: 400;
+                color: rgba(0, 125, 242, 1);
+                top: 0px;
+                left: 95px;
+                }
+                .subDigit-end{
+                    left: 60px;
+                    top: -9px;
+                }
+                .cmsCcounter{
+                     padding-bottom: 20px;
+                }
+               
+                .cmsCounterTitle  {
+                  
+                    span{
+                    color: #888;
+                    font-weight: 600;
+                    margin-top: 20px;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-family: Poppins;
+                    line-height: 26px;
+               
+               
+                
+               
+                }
+            }
+        }
+    }
+}
+}

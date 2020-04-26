@@ -1,0 +1,54 @@
+@import "shared/variables";
+@import "shared/fonts";
+
+// Pages
+@import "pages/home";
+
+// Farid
+@import "components/header_top";
+@import "components/header_nav";
+
+@import "components/homeSlider";
+
+// Media Query
+@import "media-query/Imedia_query";
+
+
+
+// Macid
+
+// Macid
+
+@import "components/indexOurVision";
+@import "components/indexBigPhoto";
+@import "components/indexModalHome";
+@import "components/indexWeDoBest";
+
+
+
+
+// Media Query
+@import "media-query/Mmedia_query";
+// @import "media-query/Mmedia_query";
+
+// Faxri
+// Media Query
+@import "media-query/Fmedia_query";
+
+// Section Medical Center
+@import "components/indexMedicalCenter";
+@import "components/indexMedicalCounter";
+
+// Professional Doctor
+@import "components/indexRofessionalDoctor";
+
+// Card Doctor
+@import "components/indexCardDoctor";
+
+// Testimonials
+@import "components/inexTestimonialsContainer";
+// 
+// Lastest News
+@import "components/indexLastestNews";
+
+
